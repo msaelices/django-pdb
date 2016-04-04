@@ -1,6 +1,7 @@
+from importlib import import_module
+
 from django.core import management
 from django.core.management import find_commands
-from django.utils.importlib import import_module
 
 from ..compat import load_management_modules
 
